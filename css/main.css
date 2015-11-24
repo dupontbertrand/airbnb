@@ -88,7 +88,7 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   My CSS
    ========================================================================== */
 
 
@@ -109,14 +109,30 @@ nav {
   color: white;
 }
 
-/*paragraph text*/
 
 #header p {
   font-family: "Roboto", cursiva;
   font-size: 1.2em;
 }
 
-/*header btn border*/
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+div.container {
+  margin-left: 0;
+  width: 100%;
+}
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+  margin-top: 0.2%;
+  font-family: "Roboto", cursiva;
+}
 
 .btn-Info {
   color: white;
@@ -127,8 +143,6 @@ nav {
   color: white;
 }
 
-/*button border airbnb*/
-
 #border {
   border: 2px solid white;
   margin-top: 8.5%;
@@ -136,16 +150,12 @@ nav {
   padding-bottom: 3.5%;
 }
 
-/*Header content*/
-
 #header {
   text-align: center;
   padding-top: 10%;
   padding-bottom: 10%;
   color: white;
 }
-
-/*bottom header*/
 
 #backfoot {
   margin-bottom: -28px;
@@ -163,29 +173,7 @@ nav {
   width: 12%;
 }
 
-/*hyper text setting*/
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
-/*logo setting*/
-
-div.container {
-  margin-left: 0;
-  width: 100%;
-}
-
-/*top bar*/
-
-.container {
-  padding-left: 0;
-  padding-right: 0;
-  margin-right: 0;
-  margin-top: 0.2%;
-  font-family: "Roboto", cursiva;
-}
 
 /*/Header*/
 
@@ -193,11 +181,6 @@ div.container {
 
 body {
   background-color: lightgrey;
-}
-
-
-#backfoot {
-  margin-left: 23%;
 }
 
 .page-scroll {
@@ -208,19 +191,6 @@ body {
   color: white;
   text-align: center;
   padding-top: 10%;
-}
-
-#titreheader {
-  color: white;
-}
-
-.intro-lead-in {
-  color: white;
-  text-align: center;
-}
-
-#bouton1 {
-  margin-left: 45%;
 }
 
 #image1 {
