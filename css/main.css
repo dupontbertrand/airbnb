@@ -95,11 +95,15 @@ textarea {
 /*Header*/
 
 nav {
-  background-image: url(../background.jpg);
+  background-image: url("../img/background.jpg");
   height: 650px;
   background-size: cover;
   background-repeat: no-repeat;
 
+}
+#logo1 {
+height: 100px;
+width: 150px;
 }
 
 #header h1 {
@@ -216,7 +220,7 @@ body {
 footer {
   color: white;
   text-align: center;
-  background-image: url(../backgroundfooter.jpg);
+  background-image: url("../img/backgroundfooter.jpg");
   margin-top: 5%;
 }
 
